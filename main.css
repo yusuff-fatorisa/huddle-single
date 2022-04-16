@@ -223,3 +223,13 @@ Media Queries
 		padding: 3px 4px 0;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.contents span:nth-of-type(2) h1 {
+		font-size: 19px;
+	}
+
+	.contents span:nth-of-type(2) p  br {
+		content: "";
+	}
+}
