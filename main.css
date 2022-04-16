@@ -31,8 +31,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*width: 100vw;*/
-	height: calc(100vh - 2px);
+	min-height: calc(100vh - 2px);
 }
 
 .container {
